@@ -15,43 +15,43 @@
       src="https://kit.fontawesome.com/e8a1fdaed4.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>Form Validation</title>
   </head>
   <body>
     <div class="container">
       <div class="header">
         <h2>Create Account</h2>
       </div>
-      <form class="form" id="form">
+      <form id="form">
         <div class="form-control">
-          <label for="">Username</label>
-          <input placeholder="username" id="username" type="text" />
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="username" />
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small></small>
         </div>
         <div class="form-control">
-          <label for="">Email</label>
-          <input placeholder="@email.com" id="email" type="email" />
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="@email.com" />
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small></small>
         </div>
         <div class="form-control">
-          <label for="">Password</label>
-          <input placeholder="password" id="password" type="password" />
+          <label for="password">Passwprd</label>
+          <input type="password" id="password" placeholder="password" />
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
+          <small></small>
         </div>
         <div class="form-control">
-          <label for="">Password check</label>
-          <input placeholder="password two" id="password2" type="password" />
+          <label for="password2">Password Check</label>
+          <input type="password" id="password2" placeholder="password two" />
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
-          <small>Error message</small>
+          <small></small>
         </div>
-        <button type="submit" class="form button">submit</button>
+        <button type="submit" class="btn">submit</button>
       </form>
     </div>
     <script src="app.js"></script>
